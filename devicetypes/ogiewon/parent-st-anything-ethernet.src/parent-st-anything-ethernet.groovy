@@ -402,7 +402,10 @@ private void createChildDevice(String deviceName, String deviceNumber) {
                 		deviceHandlerName = "Child Temperature Sensor" 
                 	break
          		case "humidity": 
-                		deviceHandlerName = "Child Humidity Sensor" 
+                		deviceHandlerName = "Child Humidity Sensor"
+			break
+			case "pressure":
+				deviceHandlerName = "Child Pressure Sensor" 
                 	break
          		case "motion": 
                 		deviceHandlerName = "Child Motion Sensor" 
